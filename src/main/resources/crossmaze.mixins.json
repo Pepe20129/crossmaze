@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "io.github.pepe20129.crossmaze.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "ArrowEntityMixin",
+        "SpectralArrowEntityMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

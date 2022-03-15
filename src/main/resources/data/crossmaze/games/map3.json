@@ -1,0 +1,13 @@
+{
+  "type": "crossmaze:normal",
+  "name": "CrossMaze Map3",
+  "icon": "minecraft:crossbow",
+  "item_rate": 30,
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "map": {
+    "id": "crossmaze:map3"
+  }
+}

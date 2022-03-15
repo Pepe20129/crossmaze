@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "crossmaze",
+    "version": "${version}",
+    "name": "CrossMaze",
+    "description": "",
+    "authors": [
+        "Pablo#1981/Pepe20129"
+    ],
+    "license": "LGPL-3.0-only",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.pepe20129.crossmaze.CrossMaze"
+        ]
+    },
+    "mixins": [
+        "crossmaze.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.13.3",
+        "fabric": "*",
+        "minecraft": "1.18.2",
+        "plasmid": "0.5.x",
+        "stimuli": "0.2.7"
+    }
+}
